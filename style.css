@@ -62,21 +62,22 @@ h2 {
 
 }
 
+.title-picture {
+
+        width: auto;
+        height: 300px;
+
+
+}
+
+
 p{
    margin:0px;
 
 
-
 }
 
-.holder  {
 
-    background: rgb(117, 116, 116);
-    padding:100px 200px;
-
-
-
-}
 
 button {
 
@@ -108,7 +109,41 @@ h3 {
 
 .middle {
 
+        display:flex;
+        flex-direction: column;
+        padding:25px;
 
+}
+
+.container {
+        display:flex;
+        justify-content: center;
+        gap:32px;
+
+
+}
+.block {
+
+    display:flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-bottom:100px;
+
+
+
+}
+
+img  {
+        width: auto;
+        height:200px;
+        border: black solid 2px;
+
+
+}
+
+.text   {
+
+        margin-top: 8px;
 
 
 
@@ -116,8 +151,8 @@ h3 {
 
 .middle-two {
 
-
-
+    background: #E5E7EB;
+    padding: 200px;
 
 
 }
