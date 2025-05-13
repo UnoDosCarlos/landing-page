@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", 'Times New Roman', sans-serif;
     display:flex;
     flex-direction:column;
+    padding:0px;
+    margin:0px;
 
 }
 
@@ -85,6 +87,7 @@ button {
     color:white;
     font-weight: 900;
     width:100px;
+    height:35px;
     padding:8px;
     border-radius: 8px;
 
@@ -200,6 +203,42 @@ img  {
 
 
 .bottom {
+        display:flex;
+        justify-content: center;
+        background: rgb(150, 12, 12);
+        padding:150px;
+        color:white;
+
+
+
+}
+
+.container-three {
+
+        background: black;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:32px;
+        width:700px;
+        border-radius: 8px;
+
+
+
+}
+
+.call-to-action {
+        display:flex;
+        flex-direction: column;
+
+
+}
+
+h4 {
+    padding:0px;
+    margin:0px;
+    font-weight: 900;
+    font-size: 24px;
 
 
 
