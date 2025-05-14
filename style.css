@@ -12,7 +12,7 @@ body {
     display:flex;
     justify-content: space-evenly;
     align-items:center;
-    background: #1f2937;
+    background: black;
     padding:24px;
     
 
@@ -22,7 +22,7 @@ body {
 h2 {
     display:flex;
     font-size: 48px;
-    color:#F9FAF8;
+    color:black;
     font-weight:900;
     margin:0px;
     padding:0px;
@@ -30,14 +30,13 @@ h2 {
 
 }
 .header-left {
-    color:white;
+    color: rgb(150, 12, 12);
     font-weight: 900;
-    font-size: 24px;
+    font-size: 48px;
 
 }
 .header-right {
     display:flex;
-    color:#F9FAF8;
 
 }
 
@@ -45,9 +44,9 @@ h2 {
 .top {
     display:flex;
     justify-content: center;
-    background: #1f2937;
+    background: rgb(150, 12, 12);
     padding:100px;
-    color:#E5E7EB;
+    color:black;
     font-size: 18px;
     gap:100px;
     
@@ -83,8 +82,8 @@ p{
 
 button {
 
-    background-color: #3882F6;
-    color:white;
+    background-color: black;
+    color:rgb(150, 12, 12);
     font-weight: 900;
     width:100px;
     height:35px;
@@ -207,7 +206,7 @@ img  {
         justify-content: center;
         background: rgb(150, 12, 12);
         padding:150px;
-        color:white;
+        color:yellow;
 
 
 
@@ -239,14 +238,17 @@ h4 {
     margin:0px;
     font-weight: 900;
     font-size: 24px;
-
+    margin-bottom: 8px;
 
 
 
 }
 
 .footer {
-
+    text-align: center;
+    background: black;
+    padding:24px;
+    color:rgb(150, 12, 12);
 
 
 
@@ -255,7 +257,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color:#E5E7EB;
+    color:rgb(150, 12, 12);
     font-size: 18px;
     
 
@@ -266,5 +268,14 @@ ul {
     padding:0px;
     display:flex;
     gap: 24px;
+
+}
+
+.wolverine {
+
+    background: yellow;
+    color:black;
+
+
 
 }
